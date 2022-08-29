@@ -5,9 +5,6 @@ function generateSiteMap(posts) {
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      <!--We manually set the two URLs we know already-->
      <url>
-       <loc>https://intronext.vercel.app</loc>
-     </url>
-     <url>
        <loc>https://intronext.vercel.app/posts/ssg-ssr</loc>
      </url>
      <url>
