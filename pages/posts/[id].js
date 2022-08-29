@@ -19,6 +19,7 @@ export default function Post({ postData }) {
             {postData.id}
             <br /><br />
             <Date dateString={postData.date} format='DD.MM.YYYY' />
+            <h1>SEO SEO SEO SEO SEO SEO</h1>
         </Layout>
     )
 }
