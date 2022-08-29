@@ -1,0 +1,35 @@
+body, h1, h2, p {
+    margin: 0;
+}
+
+.main_container, .menu_container, .post_container {
+    display: flex;
+}
+
+.main_container {
+    justify-content: center;
+}
+
+.main_container, .menu_container {
+    padding: 100px 40px 40px 40px;
+    border: 1px solid khaki;
+    border-radius: 8px;
+}
+
+.post_container, .menu_container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: greenyellow
+}
+
+.link_home {
+    color: khaki
+}
+
+.profile_picture {
+    width: 120px;
+    height: 120px;
+}
