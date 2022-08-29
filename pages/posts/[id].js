@@ -11,6 +11,8 @@ export default function Post({ postData }) {
                 <title>
                     {postData.title}
                 </title>
+                <meta name="robots" content="all" />
+                <link rel="canonical" href={"https://intronext.vercel.app/posts/" + postData.id} key="canonical" />
             </Head>
             {postData.title}
             <br />

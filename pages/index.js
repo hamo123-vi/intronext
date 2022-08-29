@@ -20,6 +20,8 @@ export default function Home({posts}) {
         <title>
           IntroNext | Početna
         </title>
+        <meta name="robots" content="all" />
+        <link rel='canonical' href='https://intronext.vercel.app' key='canonical' />
       </Head>
 
       <section>
