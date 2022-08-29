@@ -16,7 +16,7 @@ export default function Post({ postData }) {
             <br />
             {postData.id}
             <br />
-            <Date dateString={postData.date}></Date>
+            <Date dateString={postData.date} />
         </Layout>
     )
 }
